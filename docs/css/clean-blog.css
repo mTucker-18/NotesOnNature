@@ -418,3 +418,18 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+
+/* New CSS */
+
+:root {
+  --light-green: #8BA24E;
+  --dark-green: #5F7D3A;
+  --jeans: #08605F;
+  --red: #CC4E54;
+  --black: #4D4D4D;
+  --gray: #CFCFCE;
+}
+
+header.masthead .site-heading h1 {
+  text-shadow: 3px 3px black;
+}
