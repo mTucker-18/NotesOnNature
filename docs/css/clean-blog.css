@@ -410,8 +410,8 @@ footer .copyright {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: #00657b;
+  border-color: #00657b;
 }
 
 .btn-lg {
@@ -432,4 +432,25 @@ footer .copyright {
 
 header.masthead .site-heading h1 {
   text-shadow: 3px 3px black;
+}
+
+.btn-primary {
+  background-color: var(--light-green);
+  border-color: var(--jeans);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: var(--dark-green);
+  border-color: var(--jeans);
+}
+
+.btn {
+  text-transform: capitalize;
+}
+
+h1, h2, h3, h4, h5, h6,
+.btn, #mainNav,
+header.masthead .site-heading .subheading {
+  font-family: 'Fira Mono', monospace;
 }
