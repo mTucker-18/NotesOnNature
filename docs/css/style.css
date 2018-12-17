@@ -434,6 +434,10 @@ header.masthead .site-heading h1 {
   text-shadow: 3px 3px black;
 }
 
+header.masthead .page-heading h1 {
+  text-shadow: 3px 3px black;
+}
+
 .btn-primary {
   background-color: var(--light-green);
   border-color: var(--jeans);
@@ -451,7 +455,7 @@ header.masthead .site-heading h1 {
 
 h1, h2, h3, h4, h5, h6,
 .btn, #mainNav,
-header.masthead .site-heading .subheading {
+header.masthead .site-heading .subheading .page-heading {
   font-family: 'Fira Mono', monospace;
 }
 
@@ -459,6 +463,15 @@ header.masthead .site-heading .subheading {
   text-align: center;
 }
 
-.HomePage h1 {
+.HomePage h2 {
   color: var(--jeans);
+}
+
+a .nav-link {
+  font-size: 200%;
+}
+
+.ProfilePic {
+  max-width: 250px;
+  max-height: 250px;
 }
