@@ -454,3 +454,11 @@ h1, h2, h3, h4, h5, h6,
 header.masthead .site-heading .subheading {
   font-family: 'Fira Mono', monospace;
 }
+
+.HomePage {
+  text-align: center;
+}
+
+.HomePage h1 {
+  color: var(--jeans);
+}
