@@ -438,6 +438,10 @@ header.masthead .page-heading h1 {
   text-shadow: 3px 3px black;
 }
 
+header.masthead .post-heading h1 {
+  text-shadow: 3px 3px black;
+}
+
 .btn-primary {
   background-color: var(--light-green);
   border-color: var(--jeans);
@@ -474,4 +478,14 @@ a .nav-link {
 .ProfilePic {
   max-width: 250px;
   max-height: 250px;
+}
+
+header.masthead .post-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Fira Mono', monospace;
 }
